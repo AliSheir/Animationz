@@ -4,7 +4,7 @@ body{
 }
 .Box-one{
     position: absolute;
-    top: 99%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 350px;
