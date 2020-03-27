@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.Box-one{
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 104px;
+}
+.Box-one div {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    background:pink;
+    border-radius: 8px;
+    animation: animate-one 3s linear infinite;
+}
+@keyframes animate-one {
+    from{
+        transform: skew(0deg, 30deg)
+    }
+    to{
+        transform: skew(0deg, -30deg)
+    }
+
+}
+.iner-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+
+}
